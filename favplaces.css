@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.favourite-places-bg-container {
+    background-color: rgba(255, 81, 0, 0.991);
+    min-height: 180vh;
+    background-size: cover;
+}
+
+.favourite-places-heading {
+    color: white;
+    font-family: "Monoton";
+    font-size: 40px;
+    padding: 34px;
+    text-align: center;
+}  
+
+.favourite-place-card-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 26px;
+    margin: 25px;
+    display: flex;
+    justify-content: space-between; /* Proper alignment */
+    align-items: center; /* Ensures image and text align */
+}
+
+.favourite-place-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.favourite-place-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 28px;
+}
+
+.favourite-place-card-image {
+    width: 200px; 
+    height: 200px;
+    border-radius: 8px; 
+}
